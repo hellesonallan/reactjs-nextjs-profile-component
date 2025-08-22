@@ -16,6 +16,17 @@
   font-family: var(--font-geist-sans);
 }
 
+.profileCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profilePhoto {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
